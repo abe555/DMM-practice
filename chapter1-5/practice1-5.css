@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+
+header {
+	width: 10%;
+}
+
+.headline {
+	font-size: 22px;
+}
+
+nav {
+	text-align: center;
+}
+
+.list {
+	padding-left: 40px;
+}
