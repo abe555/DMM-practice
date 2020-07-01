@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+header .headline {
+	text-align: center;
+}
+
+.nav-list {
+	text-align: center;
+	border-top: solid 1px #848282;
+	border-bottom: solid 1px #848282;
+}
+
+.nav-list-item {
+	display: inline-block;
+	list-style: none;
+	padding: 15px 20px;
+}
+
+.main {
+	width: 800px;
+	height: 600px;
+	margin: 50px auto;
+}
+
+.main-green{
+	font-size: 0;
+}
+
+.main-green-1 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+}
+
+.main-green-2 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #cbffd3;
+}
+
+.main-green-3 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+}
+
+.main-green-4 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+}
+
+.main-yellow {
+	font-size: 0;
+}
+
+.main-yellow-1 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+}
+
+.main-yellow-2 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+}
+
+.main-yellow-3 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e9ffa5;
+}
+
+.main-yellow-4 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+}
+
+.main-blue {
+	font-size: 0;
+}
+
+.main-blue-1 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+}
+
+.main-blue-2 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+}
+
+.main-blue-3 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+}
+
+.main-blue-4 {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: #8ed8ff;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	background-color: #848282;
+	text-align: center;
+}
+
+.footer-text {
+	line-height: 120px;
+	color: #fff;
+}
