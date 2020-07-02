@@ -28,6 +28,11 @@ main {
 	padding-bottom: 50px;
 	width: 840px;
 	margin: 0 auto;
+}
+
+.blog-item {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 	border-bottom: 1px solid #848282;
 }
 
