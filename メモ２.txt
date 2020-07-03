@@ -60,3 +60,60 @@ border-radius: %;
 ・classの複数指定
 ・疑似クラスを適用
 
+
+classをつけることも可能
+  <h2 class="text-blue text-big">Instagram</h2>
+	↑text-blueとtext-bigというクラスがついてる
+
+※この時要素が重複したときの優先度がある（詳細度という）
+上から順に優先される
+　Inline style … （<p style="">）
+　IDセレクタ … （#red）
+　疑似クラス … （:nth-child(n)、:hover このあとの項目で説明します）
+　クラスセレクタ … （.blue）
+　要素型セレクタ … （ p{...}、h1{...}）
+　全称セレクタ … （ *{...}）
+
+
+疑似クラス
+CSSでクラスの後ろに疑似クラスをつけることで
+特定の要素だけに装飾が出来るようになる。
+
+例
+a:hover　リンクにマウスカーソルが乗っている状態
+a:active　リンクにクリックしてる状態
+p:first-child　最初に出てくるpタグ
+
+li:nth-child(odd)　　奇数番目のliタグ
+li:ntn-child(even)　偶数番目のliタグ
+li:nth-child(2)  n番目のliタグ
+
+
+九章
+・ソーシャルアイコン用の領域を設定する。
+・Font Awesomeでアイコンを挿入
+・positionで配置を変えよう
+・テキストのフォントを変更
+
+Font Awesome
+　WebサイトでWebフォントが表示できるようになる。
+　（例えばツイッターのアイコンとか）
+
+使い方
+・<head>に<script src="https://kit.fontawesome.com/36666c5f50.js" crossorigin="anonymous"></script>
+の記述。（この時、自分の<link>より上流に置くこと）
+・CSSで
+<i class="fas fa-user"></i>
+
+positionプロパティ
+cssで要素の位置を指定する
+例 position: absolute;
+
+satic　　基準値の設定を行わない(初期値）
+absolute　絶対位置を設定する。ウィンドウ左上に指定
+	　親要素にrelativeが指定されている場合は、親要素の左上が基準位置になる。
+relative　相対位置を指定する。static指定時の位置（初期の位置）が基準位置になる。
+
+文字のフォントを変える
+　font-family: ;
+
