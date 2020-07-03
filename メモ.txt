@@ -1,0 +1,38 @@
+html→DOCTYPE宣言と<head>要素
+CSS→リセットCSS
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+box-sizingのデフォルトは[ box-sizing: content-box; ]
+
+content-box : 要素の大きさ+padding+border 
+border-box : 要素の大きさの中にpaddingとborderを含む
+
+※ちなみに
+　border　　要素に枠線を設定する
+　padding　要素の内側にある余白
+　margin　　要素の外側にある余白
+
+
+Floatで子要素を浮かして並べる
+float: left;を各属性につけると横並びに。
+しかし親要素のheightが設定されていないと高さがなくなる。
+　→clearfixで入り込みを無しにする。
+　→floatさせた要素の親要素にclearfix用のCSSを設定。
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+::afterをつけることで指定した要素の直後に対して適用させられる。
+（::beforeなら直前の要素が対象になる)
+
+displayで中央揃えする
+子要素のdisplay: inline-style;
+
