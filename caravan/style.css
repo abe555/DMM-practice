@@ -18,6 +18,7 @@ a {
 header {
 	width: 100%;
 	text-align: center;
+	padding-top: 15px;
 }
 
 header .header {
@@ -115,6 +116,22 @@ main {
 	border-radius: 3px;
 	color: #fff;
 	font-size: 11px;
+}
+
+.pagination {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.pagination > p {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	background-color: #acabab;
+	border-radius: 3px;
+	margin: 0 5px;
+	line-height: 30px;
 }
 
 .sidebar {
