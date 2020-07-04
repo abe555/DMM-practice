@@ -226,3 +226,92 @@ footer {
 .footer-text {
 	color: #fff;
 }
+
+@media screen and (max-width:425px) {
+	body {
+		width: 100%;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	.nav-list {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.nav-list-item {
+		width: 100%;
+		padding: 0 0 10px 0;
+		margin: 0 auto;
+	}
+
+	.main-visual-content {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	main {
+		width: 100%;
+		margin: 0;
+	}
+
+	.blog {
+		width: 100%;
+	}
+
+	.blog-headline {
+		width: 100%;
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+	.blog-box {
+		width: 100%;
+		margin: 0 3%;
+	}
+
+	.blog-image {
+		width: 49%;
+	}
+
+	.blog-text {
+		width: 49%;
+		padding: 5px;
+	}
+
+	.pagination {
+		width: 100%;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.sidebar-headline {
+		width: 100%;
+		margin: 50px 0;
+	}
+
+	.sidebar-contents {
+		width: 100%;
+		padding: 0 3%;
+	}
+
+	.instagram-headline {
+		width: 100%;
+		margin: 50px 0;
+	}
+
+	.instagram-box {
+		width: 48%;
+		padding-top: 48%;
+	}
+
+	.categories-headline {
+		margin: 50px 0;
+	}
+
+}
+
