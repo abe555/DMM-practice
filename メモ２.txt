@@ -117,3 +117,23 @@ relative　相対位置を指定する。static指定時の位置（初期の位
 文字のフォントを変える
 　font-family: ;
 
+十章
+・viewportの設定
+・メディアクエリの設定
+
+
+viewport
+各デバイスで表示される領域のこと
+
+
+メディアクエリ
+レスポンシブ対応をするための最も基本的な方法。
+
+例　横幅によって色を変える
+CSS
+@media screen and (max-width:425px) {
+  .social i {
+    color: blue;
+  }
+}
+
