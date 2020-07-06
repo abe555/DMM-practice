@@ -1,13 +1,25 @@
+# fizz_buzz.rb
+
+def fizz_buzz(number)
+
+	if number % 3 == 0 && number % 5 == 0
+		puts "FizzBuzz"
+	elsif number % 3 == 0
+		puts "Fizz"
+	elsif number % 5 == 0
+		puts "Buzz"
+	else
+		puts number.to_s
+	end
+end
+
+puts "1 以上の数字を入力してください"
+
 puts
 
-number = gets.to_i
+input = gets.to_i
 
-if number % 3 == 0 && number % 5 == 0
-	puts "FizzBuzz"
-elsif number % 3 == 0
-	puts "Fizz"
-elsif number % 5 == 0
-	puts "Buzz"
-else
-	puts number.to_s
-end
+puts "結果は..."
+
+puts fizz_buzz(input)
+
