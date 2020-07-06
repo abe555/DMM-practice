@@ -7,19 +7,21 @@ inputs_key = gets.to_i
 number = 0
 while number < inputs_key do
 
-	number = number + 1
+	number += 1
 
 	puts "#{number}回目の計算"
 	puts "2つの値を入力してください"
 
-	gets
-	a=gets.to_i
-	b=gets.to_i
+	a = gets.to_i
+	b = gets.to_i
 
-	puts "a+b=#{a+b}"
-	puts "a-b=#{a-b}"
-	puts "a*b=#{a*b}"
-	puts "a/b=#{a/b}"
+	puts "a=#{a}"
+	puts "b=#{b}"
+
+	puts "a+b=#{a + b}"
+	puts "a-b=#{a - b}"
+	puts "a*b=#{a * b}"
+	puts "a/b=#{a / b}"
 
 end
 
