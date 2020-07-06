@@ -15,8 +15,6 @@ end
 
 puts "1 以上の数字を入力してください"
 
-puts
-
 input = gets.to_i
 
 puts "結果は..."
